@@ -1,4 +1,4 @@
-# 🚀 Basic CI/CD Pipeline through Docker, Jenkins & Kubernetes
+#  Basic CI/CD Pipeline through Docker, Jenkins & Kubernetes
 
 A hands-on implementation of a complete **Continuous Integration / Continuous Deployment** workflow — taking a Go web application from source code to a running, containerized service on **Google Kubernetes Engine (GKE)**, with automated testing, image builds, and environment-based deployments (dev → canary → production).
 
@@ -99,7 +99,7 @@ This branch-to-environment mapping is the part I found most valuable to build my
 
 ## 📚 What I Learned
 
-Building this end-to-end (rather than just reading about it) taught me concepts I now apply directly in my QA/automation work:
+Building this end-to-end (rather than just reading about it) taught me concepts I now apply directly in my Automation work:
 
 - **Pipeline-as-code** — writing a `Jenkinsfile` instead of clicking through a UI, and why that matters for reproducibility and version control.
 - **Ephemeral build agents** — how Jenkins can run its own build steps *inside* Kubernetes Pods rather than on a fixed build server.
@@ -138,6 +138,6 @@ If I revisited this project today, I'd extend it with:
 
 ---
 
-## 🙏 Acknowledgment
+##  Acknowledgment
 
 This project was built as a hands-on lab exercise based on Google Cloud's reference architecture for CI/CD on Kubernetes Engine, adapted here for my own learning and experimentation with Docker, Jenkins, and GKE.
